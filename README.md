@@ -15,3 +15,4 @@ curl -sfL https://get.rio.io | sh -
 Assume that RIO agent is installed in the cluster you want to use
 
 # rio-base
+# rio-base
