@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="50b361c2-f696-411c-98a6-07eeac40d3a6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/micro/Controllers/WeatherForecastController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/micro/WeatherForecast.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/micro/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/micro/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/WebApplication/Dockerfile" />
+        <option value="$PROJECT_DIR$/app/Program.cs" />
+        <option value="$PROJECT_DIR$/app/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/app/Controllers/WeatherForecastController.cs" />
+        <option value="$PROJECT_DIR$/app/Startup.cs" />
+        <option value="$PROJECT_DIR$/app/WeatherForecast.cs" />
+        <option value="$PROJECT_DIR$/app/app.csproj" />
+        <option value="$PROJECT_DIR$/app/out/WebApplication.deps.json" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WzVcQQ4UQDcvlFBRetcpzOKQfm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.WebApplication">
+    <configuration name="WebApplication" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebApplication/WebApplication.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="WebApplication" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebApplication: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebApplication/WebApplication.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50b361c2-f696-411c-98a6-07eeac40d3a6" name="Default Changelist" comment="" />
+      <created>1580152489229</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580152489229</updated>
+      <workItem from="1580152492506" duration="4917000" />
+      <workItem from="1580192573474" duration="324000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="721" y="433" width="474" height="247" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1580155010458">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="721" y="433" width="474" height="247" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.27.1920.1053@0.27.1920.1053" timestamp="1580155010458" />
+    <state x="744" y="318" width="424" height="496" key="FileChooserDialogImpl" timestamp="1580152512090">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="744" y="318" width="424" height="496" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1580152512090" />
+    <state x="558" y="276" width="800" height="542" key="Rider.ProjectTemplateDialog.Size" timestamp="1580156465668">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="558" y="276" width="800" height="542" key="Rider.ProjectTemplateDialog.Size/0.27.1920.1053@0.27.1920.1053" timestamp="1580156465668" />
+    <state x="467" y="186" width="986" height="742" key="SettingsEditor" timestamp="1580153137334">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="467" y="186" width="986" height="742" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1580153137334" />
+    <state x="643" y="150" width="633" height="795" key="find.popup" timestamp="1580155085026">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="643" y="150" width="633" height="795" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1580155085026" />
+  </component>
+</project>

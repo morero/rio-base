@@ -1,0 +1,9 @@
+services:
+  net-example:
+    build:
+      dockerfile: ./../net-example/Dockerfile
+      context: ./.docker
+      timeout: 300
+    ports:
+    - 80/http
+  
