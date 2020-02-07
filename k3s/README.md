@@ -12,3 +12,6 @@ docker-compose up -d
 
 ## Install RIO
 rio install (uses direnv to read the KUBECONFIG env variable in this directory)
+
+# Using K3D instead:
+k3d create --api-port localhost:6444 --publish 8080:80 --server-arg --tls-san="127.0.0.1" 

@@ -1,16 +1,16 @@
+version: "3.2"
 services:
   net-example:
     build:
       dockerfile: Dockerfile
       context: ./net-example/
-      timeout: 500
     ports:
-    - 80/http
+    - 21050:80
   
   svelte-example:
     build:
       dockerfile: Dockerfile
       context: ./svelte-example/
-      timeout: 300
+
     ports:
-    - 5000/http
+    - 21080:5000

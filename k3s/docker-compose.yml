@@ -24,6 +24,8 @@ services:
 
   agent:
     image: "rancher/k3s:${K3S_VERSION:-latest}"
+    links:
+      - server:server
     tmpfs:
     - /run
     - /var/run
