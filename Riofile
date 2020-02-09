@@ -1,16 +1,66 @@
 services:
-  net-example:
+  service-net-example:
     build:
       dockerfile: Dockerfile
       context: ./net-example/
       timeout: 500
+    version: v0 
+    scale: 2
+    autoscale:
+      concurrency: 10 # specify concurrent request each pod can handle(soft limit, used to scale service)
+      maxReplicas: 3 
+      minReplicas: 1
     ports:
     - 80/http
   
-  svelte-example:
+  service-svelte-example:
     build:
       dockerfile: Dockerfile
       context: ./svelte-example/
       timeout: 300
+    version: v0 
+    scale: 2
+    autoscale:
+      concurrency: 10 # specify concurrent request each pod can handle(soft limit, used to scale service)
+      maxReplicas: 3 
+      minReplicas: 1
     ports:
     - 5000/http
+
+
+# Router
+routers:
+  svelte-example:
+    routes:
+      - match: # Match rules, the first rule matching an incoming request is used
+          methods:
+          - GET
+        to:  # Specify destination
+          - app: service-svelte-example
+            version: v0
+            port: 5000
+            namespace: default
+            weight: 100
+        timeoutSeconds: 2000 # Setting request timeout (milli-seconds)
+        retry:
+          attempts: 3 # Retry attempts
+          timeoutSeconds: 1000 # Retry timeout (milli-seconds)
+
+  net-example:
+    routes:
+      - match: # Match rules, the first rule matching an incoming request is used
+          methods:
+          - GET
+        to:  # Specify destination
+          - app: service-net-example
+            version: v0
+            port: 80
+            namespace: default
+            weight: 100
+        redirect: 
+          host: df.forked.se
+          path: /WeatherForecast
+        timeoutSeconds: 2000 # Setting request timeout (milli-seconds)
+        retry:
+          attempts: 3 # Retry attempts
+          timeoutSeconds: 1000 # Retry timeout (milli-seconds)
